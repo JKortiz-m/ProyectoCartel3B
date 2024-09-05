@@ -1,0 +1,108 @@
+/* Estilo general del documento */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0066cc;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #0066cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para la galería de imágenes en Introducción, Valores y Mis Datos */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las imágenes */
+    margin-bottom: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 200px; /* Tamaño grande pero no excesivo */
+    height: 200px; /* Tamaño grande pero no excesivo */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-item p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo para el contenedor de video en Introducción */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 8px;
+}
